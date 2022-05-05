@@ -8,9 +8,9 @@
 		<version>2.6.8-SNAPSHOT</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>com.bookStation</groupId>
-	<artifactId>models</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<groupId>net.books</groupId>
+		<artifactId>models</artifactId>
+	<version>1.0.0-SNAPSHOT</version>
 	<name>models</name>
 	<description>book station Abstract models</description>
 	<properties>
@@ -46,6 +46,13 @@
 			<version>2.10.3</version>
 		</dependency>
 	</dependencies>
+	<distributionManagement>
+		<repository>
+			<id>github</id>
+			<name>GitHub OWNER Apache Maven Packages</name>
+			<url>https://maven.pkg.github.com/omarzaytoon/BookStationmodel</url>
+		</repository>
+	</distributionManagement>
 
 	<build>
 		<plugins>
