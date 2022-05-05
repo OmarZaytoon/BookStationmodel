@@ -8,7 +8,7 @@
 		<version>2.6.8-SNAPSHOT</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>net.books</groupId>
+	<groupId>bookstation.book</groupId>
 		<artifactId>models</artifactId>
 	<version>1.0.0-SNAPSHOT</version>
 	<name>models</name>
